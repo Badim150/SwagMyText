@@ -27,6 +27,7 @@ namespace jebus
 			button.Click += delegate {
 				String input = FindViewById<AutoCompleteTextView> (Resource.Id.inputText).Text;
 				String output = input.ToLower();
+				output = output.Replace("hello", "sup");
 				output = output.Replace("hi there","sup sup,");
 				output = output.Replace("hi","yo");
 				output = output.Replace("man", "Swagger");
@@ -62,7 +63,9 @@ namespace jebus
 				output = output.Replace("see you", "C U");
 				output = output.Replace("love", "<3");
 				output = output.Replace("cya", "cya bitch");
-				output = output.Replace("see ya", "cya");
+				output = output.Replace("dear", "mah homie");
+
+
 				FindViewById<EditText> (Resource.Id.outputText).Text = output; 
 			};
 		}
