@@ -29,7 +29,8 @@ namespace jebus
 				String output = input.Replace("hi","Yo! sup");
 				output = output.Replace("man", "Swagger");
 				output = output.Replace("girl", "bitch");
-				output = output.Replace("girl", "bitch");
+				output = output.Replace("lady", "bitch");
+				output = output.Replace("woman", "bitch");
 				output = output.Replace("cool", "swaggy");
 				output = output.Replace("dude", "nigger");
 				FindViewById<EditText> (Resource.Id.outputText).Text = output; 
