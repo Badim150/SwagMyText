@@ -26,7 +26,8 @@ namespace jebus
 
 			button.Click += delegate {
 				String input = FindViewById<AutoCompleteTextView> (Resource.Id.inputText).Text;
-				String output = input.Replace("hi","Yo! sup");
+				String output = input.Replace("hi there","sup sup");
+				output = output.Replace("hi","yo");
 				output = output.Replace("man", "Swagger");
 				output = output.Replace("girl", "bitch");
 				output = output.Replace("lady", "bitch");

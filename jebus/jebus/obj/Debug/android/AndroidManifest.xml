@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="jebus.jebus">
-  <uses-sdk android:minSdkVersion="20" />
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="16" />
   <application android:label="jebus" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="jebus" android:name="jebus.MainActivity">
       <intent-filter>
