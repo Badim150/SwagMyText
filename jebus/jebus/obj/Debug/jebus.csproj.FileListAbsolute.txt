@@ -8,7 +8,6 @@ C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\jebus.pdb
 C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\android\bin\jebus.jebus.apk
 C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\res\layout\main.xml
 C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\res\values\strings.xml
-C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\res\drawable\icon.png
 C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\R.cs.flag
 C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\uploadflags.txt
 C:\Users\Badim\Documents\Projects\jebus\jebus\bin\Debug\jebus.dll
@@ -24,3 +23,4 @@ C:\Users\Badim\Documents\Projects\jebus\jebus\obj\Debug\res\values\strings.xml
 C:\Users\Badim\Documents\Projects\jebus\jebus\obj\Debug\res\drawable\icon.png
 C:\Users\Badim\Documents\Projects\jebus\jebus\obj\Debug\R.cs.flag
 C:\Users\Badim\Documents\Projects\jebus\jebus\obj\Debug\uploadflags.txt
+C:\Users\Kaguedesmon\Documents\Projects\jebus\jebus\obj\Debug\res\drawable\icon.jpg

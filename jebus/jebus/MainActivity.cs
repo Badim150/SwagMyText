@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace jebus
 {
-	[Activity (Label = "jebus", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "SwagMyText", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
 
@@ -40,7 +40,6 @@ namespace jebus
 				output = output.Replace("dat ass", "THAT HOLLY ASS");
 				output = output.Replace("ass", "booty");
 				output = output.Replace("dad", "old man");
-				output = output.Replace("mom", "nigah");
 				output = output.Replace("for sure", "foh shizzlee");
 				output = output.Replace("friend", "bro");
 				output = output.Replace("my", "mah");

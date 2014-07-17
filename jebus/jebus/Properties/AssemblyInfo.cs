@@ -13,13 +13,8 @@ using Android.App;
 [assembly: AssemblyCopyright ("Badim and Kaguedesmon")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
-[assembly: Application(Icon = "@drawable/ic_launcher")]
+[assembly: Application(Icon = "@drawable/icon")]
 
-#if DEBUG
-[assembly: Application(Debuggable=true)]
-#else
-[assembly: Application(Debuggable=false)]
-#endif
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
