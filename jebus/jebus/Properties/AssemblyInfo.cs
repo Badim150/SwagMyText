@@ -8,11 +8,18 @@ using Android.App;
 [assembly: AssemblyTitle ("jebus")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
+[assembly: AssemblyCompany ("BadaGuedes")]
 [assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("Kaguedesmon")]
+[assembly: AssemblyCopyright ("Badim and Kaguedesmon")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
+[assembly: Application(Icon = "@drawable/ic_launcher")]
+
+#if DEBUG
+[assembly: Application(Debuggable=true)]
+#else
+[assembly: Application(Debuggable=false)]
+#endif
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
